@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer {
+    width: 100%;
+    height: 550px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 250px;
+}
+
+.container-footer {
+    width: 1300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.first-part {
+    width: 300px;
+    height: 177px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 35px;
+}
+
+.first-part h1 {
+    margin-bottom: 27px;
+}
+
+.first-part span {
+    width: 268px;
+    height: 88px;
+    font-size: 16px;
+    color: gray;
+}
+
+.icons-social {
+    width: 150px;
+    height: 28px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-socialIcons {
+    width: 33px;
+    height: 33px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-clicked {
+    background-color: black;
+    width: 33px;
+    height: 33px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.company-part {
+    width: 204px;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.company-part p {
+    width: 100px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.company-part ul {
+    flex-direction: column;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.company-part li {
+    list-style: none;
+    padding: 8px;
+    margin: 0px;
+    font-size: 19px;
+    color: gray;
+}
+
+.company-part li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.help {
+    width: 200px;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.help p {
+    width: 100px;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.help ul {
+    flex-direction: column;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.help li {
+    list-style: none;
+    font-size: 19px;
+    color: gray;
+    margin: 0px;
+    padding: 8px;
+    width: 180px;
+}
+
+.help li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.FAQ {
+    width: 140px;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.FAQ p {
+    width: 100px;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.FAQ ul {
+    flex-direction: column;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.FAQ li {
+    list-style: none;
+    font-size: 19px;
+    color: gray;
+    margin: 0px;
+    padding: 8px;
+    width: 180px;
+}
+
+.FAQ li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.resourse {
+    width: 170px;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.resourse p {
+    width: 100px;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.resourse ul {
+    flex-direction: column;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.resourse li {
+    list-style: none;
+    font-size: 19px;
+    color: gray;
+    margin: 0px;
+    padding: 8px;
+    width: 190px;
+}
+
+.resourse li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.end {
+    width: 1440px;
+    height: 90px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.end span {
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.icons-end {
+    width: 282px;
+    height: 31px;
+    margin: 10px;
+}
+
+.emailBox {
+    width: 1400px;
+    height: 130px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+    bottom: 80px;
+}
+
+.emailText {
+    width: 551px;
+    height: 90px;
+    font-size: 40px;
+    color: white;
+}
+
+.emailPart {
+    width: 349px;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.emailInput {
+    width: 349px;
+    height: 48px;
+    background-color: white;
+    border-radius: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.emailInput input {
+    width: 280px;
+    height: 22px;
+    border: none;
+    color: gray;
+    font-size: 16px;
+    outline: none;
+}
+
+.emailPart button {
+    width: 349px;
+    height: 46px;
+    border-radius: 62px;
+    background-color: white;
+    border: none;
+}
+
+.emailPart button:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}

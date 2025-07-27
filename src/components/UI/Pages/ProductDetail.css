@@ -1,0 +1,609 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.path {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.path hr {
+    width: 1520px;
+    height: 0px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+.pathDetail {
+    width: 1520px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 20px;
+}
+
+.pathDetail a {
+    text-decoration: none;
+    color: gray;
+}
+
+.detail {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-detail {
+    font-size: 20px;
+}
+
+.container {
+    width: 1730px;
+    height: 100%;
+    display: flex;
+}
+
+.images {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verticalIMG {
+    width: 30%;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.verticalIMG img {
+    width: 152px;
+    height: 167px;
+    border-radius: 20px;
+}
+
+.mainIMG {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainIMG img {
+    width: 444px;
+    height: 530px;
+    border-radius: 20px;
+}
+
+.description {
+    width: 50%;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+}
+
+.description h1 {
+    width: 600px;
+    height: 48px;
+    font-size: 40px;
+}
+
+.score-Reates {
+    width: 193px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.price {
+    width: 300px;
+    height: 45px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.newPrice {
+    width: 81px;
+    height: 43px;
+    font-size: 32px;
+}
+
+.oldPrice {
+    width: 83px;
+    height: 43px;
+    font-size: 32px;
+    color: gainsboro;
+    text-decoration: line-through;
+}
+
+.discount {
+    width: 72px;
+    height: 34px;
+    background-color: #fcc0c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff3333;
+    border-radius: 62px;
+    font-size: 20px;
+}
+
+.explanition {
+    width: 590px;
+    height: 33px;
+    font-size: 16px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.description hr {
+    height: 0px;
+    width: 650px;
+    margin-top: 20px;
+}
+
+.colorsPart {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.colorsPart p {
+    font-size: 16px;
+    color: gray;
+}
+
+.buttonsColor {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pinkBTN {
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+    border: none;
+    border-radius: 200px;
+}
+
+.grayBTN {
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border: none;
+    border-radius: 200px;
+}
+
+.blackBTN {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    border-radius: 200px;
+}
+
+.blueBTN {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    border-radius: 200px;
+}
+
+.colorsPart hr {
+    margin-top: 10px;
+}
+
+.sizePart {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sizePart p {
+    font-size: 16px;
+    color: gray;
+}
+
+.buttonsSize {
+    width: 420px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sizeBTN {
+    width: 100px;
+    height: 46px;
+    border-radius: 62px;
+    border: none;
+    color: gray;
+    cursor: pointer;
+}
+
+.sizeClick {
+    width: 100px;
+    height: 46px;
+    border-radius: 62px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.sizePart hr {
+    margin-top: 10px;
+}
+
+.addPart {
+    width: 650px;
+    height: 70px;
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.show {
+    width: 220px;
+    height: 52px;
+    border-radius: 60px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.miniMize {
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.showPart {
+    width: 10px;
+    height: 22px;
+    font-size: 20px;
+}
+
+.plus {
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.cartBTN {
+    width: 400px;
+    height: 52px;
+    background-color: black;
+    border-radius: 60px;
+    color: white;
+    cursor: pointer;
+}
+
+.more {
+    width: 1005;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.moreContainer {
+    width: 1320px;
+    height: 90px;
+    display: flex;
+}
+
+.productDetail {
+    width: 440px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: gray;
+}
+
+.Rating-Reviews {
+    width: 440px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-bottom: 3px solid black;
+}
+
+.FAQs {
+    width: 440px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: gray;
+}
+
+.more hr {
+    width: 1320px;
+    height: 0px;
+    margin-top: 3px;
+}
+
+.moreIcons {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.moreIcons-container {
+    width: 1320px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    width: 175px;
+    height: 32px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text span {
+    color: gray;
+    font-size: 16px;
+}
+
+.icons {
+    width: 360px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filterBTN {
+    width: 50px;
+    height: 50px;
+    border-radius: 63px;
+    border: none;
+    cursor: pointer;
+}
+
+.selectBox {
+    width: 120px;
+    height: 50px;
+    border-radius: 63px;
+    border: none;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.review {
+    width: 166px;
+    height: 50px;
+    border-radius: 63px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.comments {
+    width: 100%;
+    height: 700px;
+}
+
+.commetsContainer {
+    width: 1320px;
+    height: 700px;
+    display: flex;
+}
+
+.firstVertical {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secondVertical {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.commetsCard {
+    width: 650px;
+    height: 225px;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rates-more {
+    width: 93%;
+    height: 30px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.moreIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.authorPart {
+    width: 150px;
+    height: 24px;
+    margin-left: 30px;
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.commentP {
+    width: 560px;
+    height: 66px;
+    margin-left: 30px;
+    margin-top: 5px;
+    color: gray;
+    font-size: 16px;
+}
+
+.date {
+    width: 540px;
+    height: 25px;
+    font-size: 16px;
+    color: gray;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.loadBtnPart {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadBtnPart button {
+    width: 230px;
+    height: 52px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 60px;
+    margin-top: 20px;
+}
+
+.lastTitle {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.mightLike {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mightLike-card {
+    width: 260px;
+    height: 400px;
+    background-color: white;
+    margin: 20px;
+}
+
+
+
+.price-container {
+    width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oldPrice-mightLike {
+    font-size: 24px;
+}
+
+.price-container-mightLike {
+    width: 58px;
+    height: 28px;
+    color: #ff3333;
+    background-color: rgba(255, 51, 51, 0.1);
+    border-radius: 62px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newPrice-mightLike {
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: line-through;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.mainPrice-mightLike{
+    font-size: 24px;
+     width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.mightLike img {
+    width: 260px;
+    height: 298px;
+    border-radius: 30px;
+}
+
+.score-rates {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

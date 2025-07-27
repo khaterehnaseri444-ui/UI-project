@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    width: 100%;
+    height: 90vh;
+    background-color: #f2f0f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text {
+    width: 60%;
+    height: 80%;
+    background-color: #f2f0f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 140px;
+}
+
+.home img {
+    width: 40%;
+    height: 100%;
+}
+
+.bigStar {
+    width: 104px;
+    height: 104px;
+    position: relative;
+    bottom: 210px;
+    right: 0px;
+}
+
+.smallStar {
+    width: 56px;
+    height: 56px;
+    position: relative;
+    right: 850px;
+    bottom: 50px;
+}
+
+.home-text h1 {
+    width: 500px;
+    height: 210px;
+    background-color: #f2f0f1;
+    font-size: 55px;
+    margin-right: 150px;
+}
+
+.home span {
+    width: 500px;
+    height: 50px;
+    background-color: #f2f0f1;
+    color: gray;
+    font-size: 14px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+.home button {
+    width: 210px;
+    height: 52px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-right: 450px;
+}
+
+.box-number {
+    width: 590px;
+    height: 70px;
+    background-color: #f2f0f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 150px;
+    margin-left: 50px;
+}
+
+.box-number h2 {
+    font-size: 30px;
+}
+
+.brand-number {
+    width: 140px;
+    height: 70px;
+    background-color: #f2f0f1;
+}
+
+.brand-number p {
+    width: 160px;
+    color: gray;
+}
+
+.products-number {
+    width: 150px;
+    height: 70px;
+    background-color: #f2f0f1;
+}
+
+.products-number p {
+    width: 160px;
+    color: gray;
+}
+
+.customers-number {
+    width: 170px;
+    height: 70px;
+    background-color: #f2f0f1;
+}
+
+.customers-number p {
+    width: 160px;
+    color: gray;
+}
+
+hr {
+    height: 60px;
+}
+
+.brands {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.brand-icon {
+    width: 180;
+    height: 33;
+    background-color: black;
+    margin: 70px;
+}
+
+.title-newArrivals {
+    width: 100%;
+    height: 150px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newArrivals {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newArrivals-card {
+    width: 260px;
+    height: 400px;
+    background-color: white;
+    margin: 20px;
+}
+
+.price-container-newAriivals {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.newPriceNewArrivals {
+    font-size: 24px;
+}
+
+.discountNewArrivals {
+    width: 58px;
+    height: 28px;
+    color: #ff3333;
+    background-color: rgba(255, 51, 51, 0.1);
+    border-radius: 62px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oldPriceNewArrivals {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: line-through;
+    margin: 20px;
+}
+
+.newArrivals img {
+    width: 260px;
+    height: 298px;
+    border-radius: 30px;
+}
+
+.score-rates-newArrivals {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainPriceNewArrivals {
+    font-size: 24px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.view-butten {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.view-butten button {
+    width: 218px;
+    height: 52px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 62px;
+    margin: 50px;
+}
+
+.title-TopSelling {
+    width: 100%;
+    height: 150px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TopSelling {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TopSelling-card {
+    width: 260px;
+    height: 400px;
+    background-color: white;
+    margin: 20px;
+}
+
+.TopSelling img {
+    width: 260px;
+    height: 298px;
+    border-radius: 30px;
+}
+
+.score-rates-topSelling {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-container-topSelling {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.oldPriceTopSelling {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: line-through;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.discountPartTopSelling {
+    width: 68px;
+    height: 28px;
+    color: #ff3333;
+    background-color: rgba(255, 51, 51, 0.1);
+    border-radius: 60px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainPriceTopSelling {
+    font-size: 24px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.newPriceTopSelling {
+    font-size: 24px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.view-butten-selling {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.view-butten-selling button {
+    width: 218px;
+    height: 52px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 62px;
+    margin: 50px;
+}
+
+.options-pic {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.main-pic {
+    width: 1239px;
+    height: 866px;
+    border-radius: 40px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-pic h1 {
+    width: 687px;
+    height: 58px;
+    font-size: 48px;
+    margin: 20px;
+}
+
+.part1-pic {
+    width: 90%;
+    height: 290px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.casual {
+    width: 407px;
+    height: 290px;
+}
+
+.casual img {
+    width: 407px;
+    height: 290px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.casual h3 {
+    width: 89px;
+    height: 49px;
+    font-size: 36px;
+    left: 36px;
+    top: 25px;
+    position: relative;
+}
+
+.formal {
+    width: 684px;
+    height: 290px;
+    border-radius: 20px;
+}
+
+.formal img {
+    width: 684px;
+    height: 290px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.formal h3 {
+    width: 89px;
+    height: 49px;
+    font-size: 36px;
+    left: 36px;
+    top: 25px;
+    position: relative;
+}
+
+.part2-pic {
+    width: 90%;
+    height: 290px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.party {
+    width: 684px;
+    height: 290px;
+    border-radius: 20px;
+}
+
+.party img {
+    width: 684px;
+    height: 290px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.party h3 {
+    width: 89px;
+    height: 49px;
+    font-size: 36px;
+    left: 36px;
+    top: 25px;
+    position: relative;
+}
+
+.gym {
+    width: 407px;
+    height: 290px;
+    border-radius: 20px;
+}
+
+.gym img {
+    width: 407px;
+    height: 290px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.gym h3 {
+    width: 80px;
+    height: 49px;
+    font-size: 36px;
+    left: 36px;
+    top: 25px;
+    position: relative;
+}
+
+.happyCostumers {
+    width: 1239px;
+    height: 60px;
+    /* margin-bottom: 300px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.happyCostumers h1 {
+    width: 658px;
+    height: 58px;
+    font-size: 48px;
+}
+
+.arrowIcons {
+    width: 60px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrowIcons button {
+    background-color: white;
+    border: none;
+}
+
+.comments {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.commentsPartContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.comments-card {
+    width: 400px;
+    height: 240px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.commentsNamePart {
+    width: 130px;
+    height: 24px;
+    display: flex;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.commentsPart {
+    width: 336px;
+    height: 88px;
+    font-size: 16px;
+    color: gray;
+    margin-left: 30px;
+}

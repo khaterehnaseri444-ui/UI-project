@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.visible{
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.visible p{
+    color:white;
+    margin-left: 390px;
+}
+
+.visible a{
+    color: white;
+    margin: 5px;
+}
+
+.visible button{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
