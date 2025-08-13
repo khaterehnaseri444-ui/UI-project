@@ -45,8 +45,6 @@ function Home() {
             swiperRef.slidePrev();
         }
     }
-
-
     const brands = [
         { id: 1, name: 'versace' },
         { id: 2, name: 'zara' },

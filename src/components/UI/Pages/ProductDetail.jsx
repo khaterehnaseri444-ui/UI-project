@@ -85,7 +85,7 @@ function ProductDetail() {
                         <div className='colorsPart'>
                             <p>Select Colors</p>
                             <div className='buttonsColor'>
-                                {colors.map((item) => (
+                                {colors.map((item , index) => (
                                     <React.Fragment key={item.id}>
                                         <button onClick={() => chooseColor(item.colorItem)} className={item.className}>
                                             {selectColor === item.colorItem && (<Icon name={'tick'} />)}

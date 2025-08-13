@@ -58,8 +58,8 @@ function Footer() {
                                 <button
                                     onClick={() => chooseIcon(item.id)}
                                     className={IsSocialClick === item.id ? "button-clicked" : "button-socialIcons"}>
-                                        {IsSocialClick===item.id?(<Icon name={item.clickedIcon}/>):(<Icon name={item.orginalIcon}/>)}
-                                    </button>
+                                    {IsSocialClick === item.id ? (<Icon name={item.clickedIcon} />) : (<Icon name={item.orginalIcon} />)}
+                                </button>
                             </React.Fragment>
                         ))}
                     </div>
